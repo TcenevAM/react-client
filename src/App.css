@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+.globalWrapper{
+  background: #f9f9f9;
+}
+
+.wrapper{
+  display: flex;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

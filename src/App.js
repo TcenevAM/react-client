@@ -3,7 +3,8 @@ import Navbar from "./components/Navbar/Navbar";
 import Content from "./components/Content/Content"
 import './App.css';
 
-function App() {
+function App()
+{
   return (
     <div className="globalWrapper">
       <Header />

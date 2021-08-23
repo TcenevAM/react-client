@@ -2,28 +2,24 @@
     margin: 0 auto;
 }
 
-.input{
-    background: #FFFFFF;
-    border-radius: 20px;
-    font-size: 14px;
-    width: 100%;
-    text-align: center;
-    resize: none;
-    outline: none;
-    border: none;
+.button{
+    background-color: #4A9DFF !important;
+    color: #FFFFFF !important;
+    margin-top: 95px !important;
 }
 
-.td{
-    border-bottom: 0!important;
+.buttonWrapper{
+    display: flex;
+    justify-content: space-around;
 }
 
-.firstInput{
-    text-align: left;
-    background: #FFFFFF;
-    border-radius: 20px;
-    font-size: 14px;
-    width: 100%;
-    resize: none;
-    outline: none;
-    border: none;
+.disableCharts{
+    visibility: hidden;
+}
+
+.enableCharts{
+    visibility: visible;
+    margin-top: 95px;
+    display: flex;
+    justify-content: space-around;
 }

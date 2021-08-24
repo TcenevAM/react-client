@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-client/static/css/main.455a83de.chunk.css",
+    "main.js": "/react-client/static/js/main.ffa7578f.chunk.js",
+    "main.js.map": "/react-client/static/js/main.ffa7578f.chunk.js.map",
+    "runtime-main.js": "/react-client/static/js/runtime-main.33e34fd2.js",
+    "runtime-main.js.map": "/react-client/static/js/runtime-main.33e34fd2.js.map",
+    "static/js/2.0be85c36.chunk.js": "/react-client/static/js/2.0be85c36.chunk.js",
+    "static/js/2.0be85c36.chunk.js.map": "/react-client/static/js/2.0be85c36.chunk.js.map",
+    "static/js/3.284d427a.chunk.js": "/react-client/static/js/3.284d427a.chunk.js",
+    "static/js/3.284d427a.chunk.js.map": "/react-client/static/js/3.284d427a.chunk.js.map",
+    "index.html": "/react-client/index.html",
+    "static/css/main.455a83de.chunk.css.map": "/react-client/static/css/main.455a83de.chunk.css.map",
+    "static/js/2.0be85c36.chunk.js.LICENSE.txt": "/react-client/static/js/2.0be85c36.chunk.js.LICENSE.txt",
+    "static/media/Vector.43dffd10.svg": "/react-client/static/media/Vector.43dffd10.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.33e34fd2.js",
+    "static/js/2.0be85c36.chunk.js",
+    "static/css/main.455a83de.chunk.css",
+    "static/js/main.ffa7578f.chunk.js"
+  ]
+}

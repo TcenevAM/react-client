@@ -1,20 +1,21 @@
 import React from 'react';
 import { Pie, PieChart, Tooltip } from 'recharts';
+import { useUsersInfo } from '../../../store/tableReducer';
 
 let data = [
     { name: "Retention", value: 0 },
     { name: "New users", value: 0}
 ]
 
-const calculate = (props) => {
+const calculate = (usersInfo) => {
     let returnedUsersCounter = 0;
-    props.map(user => {
+    usersInfo.map(user => {
         if(isUserActive(user)){
             data[0].value += 1
             returnedUsersCounter += 1
         }
     })
-    data[1].value = props.length - returnedUsersCounter;
+    data[1].value = usersInfo.length - returnedUsersCounter;
 }
 
 const clearData = () =>{
@@ -41,10 +42,11 @@ const isUserActive = (user) => {
         return false
 }
 
-const donutChart = (props) =>
+const DonutChart = () =>
 {
     clearData()
-    calculate(props.data)
+    const usersInfo = useUsersInfo();
+    calculate(usersInfo)
     return (
         <div>
             <PieChart width={400} height={400}>
@@ -55,4 +57,4 @@ const donutChart = (props) =>
     )
 }
  
-export default donutChart
+export default DonutChart

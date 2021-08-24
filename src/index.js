@@ -3,9 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import store from './components/store/store'
+import store from './store/store'
 import { Provider } from 'react-redux'
+import { fetchUsersInfo } from './store/tableReducer'
 
+store.dispatch(fetchUsersInfo)
 
 ReactDOM.render(
   <Provider store={store}>

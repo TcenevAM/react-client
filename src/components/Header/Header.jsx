@@ -11,7 +11,7 @@ let Header = () =>
         AB Test Real
       </div>
       <div className={c.inputWrapper}>
-        <img className={c.img} src={search} />
+        <img className={c.img} src={search} alt=""/>
         <input type="text" className={c.input} />
       </div>
     </header>

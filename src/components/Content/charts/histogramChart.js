@@ -1,5 +1,6 @@
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, Tooltip, Legend } from 'recharts';
 import { toDays } from './donutChart';
+import { useUsersInfo } from '../../../store/tableReducer';
 
 let userData = [
   {
@@ -44,8 +45,9 @@ const updateUserData = (userLifespan) =>{
   }
 }
 
-const histogramChart = (props) => {
-  calculate(props.data)
+const HistogramChart = () => {
+  const usersInfo = useUsersInfo();
+  calculate(usersInfo)
 
   return (
     <BarChart
@@ -69,4 +71,4 @@ const histogramChart = (props) => {
     );
 }
 
-export default histogramChart
+export default HistogramChart
